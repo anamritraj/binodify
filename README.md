@@ -1,3 +1,7 @@
+
+<img align="center" width="640" alt="Binod!" src="https://user-images.githubusercontent.com/11889942/89713893-734f2d00-d9b8-11ea-9076-b31e3c5c0d38.png">
+
+
 ## Binodify
 
 Binodify any website. Because BINOD.
