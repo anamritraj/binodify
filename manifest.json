@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Binodify!",
+  "version": "1.0.0",
+  "description": "Binodify your websites. All hail Binod!",
+  "browser_action": {
+    "default_icon": "binod128x128.png"
+  },
+  "icons": { "16": "binod16x16.png",
+    "48": "binod48x48.png",
+   "128": "binod128x128.png" },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  }
+}
